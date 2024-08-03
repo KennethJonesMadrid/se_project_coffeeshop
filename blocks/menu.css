@@ -3,6 +3,7 @@
   background-image: url(../images/background_menu.svg);
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 100px 0 100px 0;
 }
 
 .menu__title {
@@ -12,11 +13,14 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
+  margin: 0 auto 24px;
   text-align: center;
 }
 
 .menu__subtitle {
   max-width: 780px;
+  margin: 0 auto;
+  text-align: center;
   font-family: "Noto Serif";
   font-style: normal;
   font-weight: normal;
@@ -25,4 +29,11 @@
 }
 
 .menu__cards {
+  margin: 100px 0;
+  list-style-type: none;
+  padding: 0;
+  gap: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
