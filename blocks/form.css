@@ -10,7 +10,7 @@
 
 .form__label {
   margin-bottom: 8px;
-  font-family: Inter;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -25,7 +25,7 @@
   padding: 15px 20px;
   border: 1px solid #838383;
   margin: 8px 0 32px;
-  font-family: Inter;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -40,7 +40,7 @@
   width: 100%;
   border: none;
   margin-bottom: 32px;
-  font-family: Inter;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -62,7 +62,7 @@
   display: flex;
   gap: 12px;
   justify-content: center;
-  font-family: Inter;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;

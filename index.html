@@ -11,7 +11,7 @@
     <meta name="keywords" content="coffee shop, capuccino, latte, barista" />
     <title>El Coffee Shop</title>
     <link rel="stylesheet" href="pages/index.css" />
-    <link rel="favicon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -111,6 +111,7 @@
                   class="form__input"
                   type="text"
                   placeholder="Name Surname"
+                  required
                 />
               </label>
               <label class="form__label"
@@ -121,11 +122,12 @@
                   min="1"
                   max="8"
                   placeholder="1-8"
+                  required
                 />
               </label>
               <label class="form__label"
                 >Date & time *
-                <input class="form__input" type="datetime-local" />
+                <input class="form__input" type="datetime-local" required />
               </label>
               <label class="form__label"
                 >Your email *
@@ -133,15 +135,20 @@
                   class="form__input"
                   type="email"
                   placeholder="email@email.com"
+                  required
                 />
               </label>
-              <button class="form__button">Book a table</button>
+              <button type="submit" class="form__button">Book a table</button>
               <label
                 class="form__label form__label_type_checkbox"
                 for="checkbox"
               >
-                <input class="form__checkbox" type="checkbox" id="checkbox" />I
-                agree with the terms of use</label
+                <input
+                  class="form__checkbox"
+                  type="checkbox"
+                  id="checkbox"
+                  required
+                />I agree with the terms of use</label
               >
             </fieldset>
           </form>
